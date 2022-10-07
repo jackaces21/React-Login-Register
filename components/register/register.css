@@ -1,0 +1,139 @@
+.register {
+    /* border: 3px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 100vh;
+}
+
+.lr {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 568px;
+    height: 509px;
+    left: 473px;
+    top: 157px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+.daftar {
+    height: 25px;
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 100%;
+    left: 507px;
+    top: 199px;
+    font-family: Gotham;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+
+
+    color: #730C07;
+    /* border: 1px solid red; */
+}
+
+/* 
+form {
+    border: 1px solid black;
+} */
+
+
+input {
+    display: flex;
+    margin-bottom: 20px;
+    width: 500px;
+    height: 59px;
+    left: 507px;
+    top: 260px;
+    padding-left: 20px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+
+    color: #868686;
+
+    border: rgba(255, 255, 255, 1);
+
+
+    /* border: 1px solid black; */
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+}
+
+form>p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 70%;
+    /* border: 1px solid black; */
+    /* width: 97px; */
+    height: 14px;
+    left: 910px;
+    top: 423px;
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #730C07;
+    cursor: pointer;
+}
+
+
+button {
+    width: 500px;
+    height: 59px;
+    left: 507px;
+    top: 467px;
+    margin-top: 20px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 17px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    background: #EB3F36;
+    border: rgba(255, 255, 255, 1);
+    box-shadow: 0px 7px 6px rgba(0, 0, 0, 0.17);
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+
+
+#p,
+#p>a {
+    padding-bottom: 20px;
+    width: 290px;
+    height: 15px;
+    left: 609px;
+    top: 605px;
+
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 15px;
+    color: #7C7C7C;
+    color: rgba(115, 12, 7, 1);
+    text-decoration: none;
+    /* border: 1px solid black; */
+}
